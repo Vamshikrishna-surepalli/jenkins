@@ -2,6 +2,6 @@ all:build
 hello:
 	echo "hello"
 build:
-	go build -o bin/main main.go
+	go build -o bin/cli main.go
 run:
 	go run main.go

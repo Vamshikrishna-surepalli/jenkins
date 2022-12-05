@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Pull Request') {
+    stage('make') {
       steps {
         sh ''' 
         make
