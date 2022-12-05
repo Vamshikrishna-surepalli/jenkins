@@ -10,16 +10,5 @@ pipeline {
     }
 }
 
-  post {
-    always {
-            /* clean up tmp directory */
-      dir("${workspace}@tmp") {
-          deleteDir()
-      }
-      /* clean up script directory */
-      dir("${workspace}@script") {
-          deleteDir()
-      }
-    }
-  }
+ 
 }
